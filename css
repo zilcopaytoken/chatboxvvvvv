@@ -1,0 +1,27 @@
+#chatbox {
+  width: 500px;
+  height: 300px;
+  border: 1px solid black;
+  position: relative;
+}
+
+#messages {
+  width: 100%;
+  height: 200px;
+  overflow: auto;
+}
+
+#message {
+  width: 100%;
+  height: 20px;
+  border: 1px solid gray;
+  padding: 5px;
+}
+
+#send {
+  background-color: #04AA6D;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
